@@ -5,21 +5,46 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./benefits.css');
+@import url('./projects.css');
+@import url('./faq.css');
+@import url('./covers.css');
+@import url('./reviews.css');
+@import url('./footer.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ED3B44;
+  color: #fff;
+  border: none;
+  border-radius: 60px;
+  padding: 10px;
+  cursor: pointer;
+  stroke: #e0373f;
+  box-shadow: 0 0 15px 1px #e0373f;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+#scrollToTopBtn:hover {
+  background-color: #E0373F;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.icon-to-top {
+  width: 12px;
+    height: 12px;
+    fill: none;
+    stroke: #fafafa;
+    stroke-width: 2px;
+    border: none;
+    transform: rotate(180deg);
 }
